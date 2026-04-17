@@ -9,7 +9,7 @@ import os
 app = Flask(__name__)
 
 os.environ["OPENAI_API_KEY"] = "sk-..."  # Your OpenAI key here
-PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMgw"
+PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMg"
 PINECONE_ENV = "us-east-1"  # You might not need this explicitly now
 PINECONE_INDEX_NAME = "quickstart-new-test-csv-html-merged"
 
