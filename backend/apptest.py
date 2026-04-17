@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 
 # Pinecone config
-PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMgw"
+PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMg"
 PINECONE_INDEX_NAME = "quickstart-new-test-csv-html-merged"
 
 # ==== Initialize Pinecone client ====
