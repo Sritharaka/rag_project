@@ -9,9 +9,9 @@ from langchain.llms import HuggingFacePipeline
 from transformers import pipeline
 
 # Config
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "hf_IfNGzzdUOOaVmiLcUCxJUgkjADOBYNOIE"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "hf_IfNGzzdUOOaVmiLcUCxJUgkjADOBYNOI"
 
-PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMg"
+PINECONE_API_KEY = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfM"
 PINECONE_INDEX_NAME = "quickstart-new-test-csv-html-merged-final"
 PINECONE_REGION = "us-east-1"
 
