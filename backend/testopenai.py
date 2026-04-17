@@ -8,8 +8,8 @@ from langchain_pinecone import Pinecone as LangchainPinecone
 from langchain_openai import ChatOpenAI  # ✅ Use for OpenRouter or OpenAI
 
 # ENV variables
-os.environ["PINECONE_API_KEY"] = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMgw"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["PINECONE_API_KEY"] = "pcsk_4DqA35_BYaWgQCoVUkGTNDRYenf3NQzwzZX6C685nC2fwMj5qXgnpMXmUcH1eVXRjVfMg"
+os.environ["OPENAI_API_KEY"] = "sk-or-v1-4d89b4768eb5b6a0ed1391d03dcc3bebf7adb848e693dbec65a03ac721017af"
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"  # ✅ Required if using OpenRouter
 
 # Config
